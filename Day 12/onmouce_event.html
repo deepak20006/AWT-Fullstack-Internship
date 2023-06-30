@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div onmouseover="mover(this)" onmouseout="mout(this)" style="background-color: rgb(111, 67, 117); color: rgb(245, 235, 243); width:120px;height:20px;padding:40px;"> click on me </div>
+    <script>
+        function mover(obj){
+            obj.innerHTML = " thanks for hover ";
+            obj.style.backgroundColor = "black";
+        }
+        function mout(obj){
+            obj.innerHTML = " click on me ";
+            obj.style.backgroundColor = "red";
+        }
+    </script>
+</body>
+</html>

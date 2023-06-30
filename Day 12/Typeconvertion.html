@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <title>Type Conversion</title>
+</head>
+<body>
+    <h1>Type Conversion</h1>
+    <h3 id="demo"></h3>
+    <p id="name"></p>
+    <script>
+
+        document.getElementById('demo').innerHTML =
+        Number("3.14") + "<br>" +
+        Number(Math.PI) + "<br>" +
+        Number(" ")+ "<br>" +
+        Number("hello")+ "<br>" +
+        String("Zeel Patel")+ "<br>" +
+        Number("44 33")+ "<br>" 
+
+        let x = "7";
+        let y = +x;
+
+        document.getElementById('name').innerHTML=
+        x+" is a "+typeof x + "<br>"  + y + " is a "+ typeof y;
+    </script> 
+</body>
+</html>

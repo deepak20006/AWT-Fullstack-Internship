@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Dom events </h1>
+    <h2 onclick="this.innerHTML = 'why you click on this'">click on this</h2>
+
+    <p onclick="change(this)">click on me</p>
+    <script>
+        function change(id){
+            id.innerHTML="change text by function";
+        }
+    </script>
+</body>
+</html>
